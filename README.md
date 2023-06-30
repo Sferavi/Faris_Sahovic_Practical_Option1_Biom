@@ -1,5 +1,6 @@
 # Faris_Sahovic_Practical_Option1_Biom
 
+Deployed at: https://sferavi.github.io/Faris_Sahovic_Practical_Option1_Biom/
 
 ## General Information
 - Chosen Practical Difficulty: Option 1 - Biom - Hard
