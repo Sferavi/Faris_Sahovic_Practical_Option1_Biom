@@ -393,3 +393,58 @@ nav {
 #black_vessel {
     margin-left: -50px;
 }
+
+/* CAROUSEL SECTION CSS */
+#carousel_section {
+    position: relative;
+    height: 550px;
+    background-color: #F2F2F2;
+    margin-top: -15px;
+    z-index: 10;
+}
+
+.carousel .carousel-indicators button {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   background-color: #004A4C;
+ }
+
+.custom_crousel_item {
+    height: 100%;
+}
+
+.custom_crousel_inner {
+    height: 100%;
+}
+
+.coursel_item_content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.small_title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #002D33;
+    margin-top: 100px;
+}
+
+.slide_carousel_text {
+    font-family: 'Bentham', serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.quote_text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002D33;
+    padding-top: 10px;
+}
