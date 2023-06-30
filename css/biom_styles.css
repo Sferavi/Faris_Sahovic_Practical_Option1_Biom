@@ -316,3 +316,80 @@ nav {
     letter-spacing: -0.78px;
     opacity: 1;
 }
+/* VESSEL COLOR SECTION CSS */
+#vessel_color_section {
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+#vessel_color_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 70px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 297px;
+    gap: 35px;
+}
+
+#vessel_color_section_text {
+    font-family: 'Bentham', serif;
+    font-weight: bolder;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.button {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-color: #002D33;
+    border: 1px solid ;
+    border-radius: 6px;
+    opacity: 1;
+    
+    
+    
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+  .button-text {
+    color: #004A4C;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    line-height: 20px;
+    opacity: 1;
+    letter-spacing: 1.0px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 10px;
+    border-right: solid 1px;
+    border-color: #002D33;
+  }
+  .button-icon {
+    padding: 10px;
+  }
+
+#three_picture{
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#white_vessel {
+    margin-left: -50px;
+}
+
+#black_vessel {
+    margin-left: -50px;
+}
