@@ -1,4 +1,4 @@
-* GENERAL TAGS CSS */
+/* GENERAL TAGS CSS */
 header {
     display: flex;
     height: 68px;
@@ -80,6 +80,11 @@ nav {
 .cart_list_item {
     position: relative;
     line-height: 14px;
+}
+
+#get_started_section_wrapper {
+    width: 100%;
+    padding: 0 25px;
 }
 
 /* GET STARTED SECTION CSS */
@@ -316,6 +321,7 @@ nav {
     letter-spacing: -0.78px;
     opacity: 1;
 }
+
 /* VESSEL COLOR SECTION CSS */
 #vessel_color_section {
     display: flex;
@@ -426,6 +432,7 @@ nav {
     align-items: center;
     height: 100%;
 }
+
 
 .small_title {
     font-family: 'Josefin Sans', sans-serif;
