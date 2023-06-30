@@ -585,3 +585,82 @@ nav {
     color: #002D33;
     opacity: 1;
 }
+
+/* OCEAN VIDEO SECTION CSS */
+#ocean_video_section {
+    margin: 0 25px;
+    position: relative;
+    background-color: transparent;
+    border-radius: 14px;
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+#ocean_video {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 14px;
+}
+
+#ocean_video_small_title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20pxpx;
+    font-weight:400;
+    color: #FFFAFA;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    opacity: 1;
+    max-width: 620px;
+}
+
+#ocean_video_big_title {
+    font-family: 'Bentham', serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bolder;
+    color: #FFFAFA;
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+    max-width: 620px;
+}
+
+#ocean_video_text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFAFA;
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+    max-width: 620px;
+    margin-top: 4px;
+}
+
+#learn_more_btn {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #004A4C;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bolder;
+    line-height: 20px;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: left;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    text-align: center;
+    padding: 16px 40px 15px 40px;
+}
