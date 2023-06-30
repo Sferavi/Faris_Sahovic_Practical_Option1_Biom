@@ -448,3 +448,140 @@ nav {
     color: #002D33;
     padding-top: 10px;
 }
+
+/* SUBSCRIBE SECTION CSS */
+#subscribe_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 90px 69px 180px;
+    height: 622px;
+}
+
+.subscribe_description {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#subscribe_section_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    gap: 42px;
+    max-width: 868px;
+    background-color: #DAE5E5;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 60px 81px 0 222px;
+    margin-left: -50px;
+    margin-bottom: -70px;
+}
+
+#subscribe_btn {
+    color: #FFFAFA;
+    background-color: #004A4C;
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    line-height: 20px;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: left;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-bottom: -25px;
+    text-align: center;
+    padding: 16px 40px 15px 40px;
+}
+
+.subscribe_left_image_container {
+    position: relative;
+    background-image: url(../assets/images/AdobeStock_377418446_Preview.png);
+    width: 496px;
+    height: 622px;
+    background-size: cover;
+}
+
+.subscribe_small_image_container {
+    background-image: url(../assets/images/Refill\ Packaging_Mockup_2.png);
+    position: absolute;
+    width: 308px;
+    height: 373px;
+    background-size: cover;
+    bottom: -90px;
+    right: -140px;
+}
+
+#subscribe_section_text_container {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    flex-direction: column; 
+    gap: 8px; 
+    width: 100%;
+}
+
+#subscribe_section_name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #002D33;
+    text-align: left;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#subscribe_section_title {
+    font-family: 'Bentham', serif;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 44px;
+    color: #002D33;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 4px;
+}
+
+#subscribe_section_text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #002D33;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+
+}
+
+#subscribe_section_description_container {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    flex-direction: column; 
+    gap: 35px; 
+    width: 100%;
+    padding-left: 46px;
+}
+
+.subscribe_section_description_text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #002D33;
+    opacity: 1;
+}
