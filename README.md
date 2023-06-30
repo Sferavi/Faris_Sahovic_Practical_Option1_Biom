@@ -14,7 +14,7 @@ Deployed at: https://sferavi.github.io/Faris_Sahovic_Practical_Option1_Biom/
 Firstly, I want to say that this project was something new based on my previous experience.
 What I mean by that is that it was structuraly different by design.
 In the start I was very confused on how I should approach it, and thus made a mistake of hardcoding a lot of components.
-I realized that it was not a beneficial in long term and have made a new git hub repository to do it all over again with 
+I realized that it was not a beneficial in long term and have made a new github repository to do it all over again with 
 better coding structure.
 A lot of harships came from positioning provided assets, but in the end I got better at it.
 
